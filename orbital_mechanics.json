@@ -1,0 +1,37 @@
+orbital_mechanics = {
+	"variable_name": {
+		"latex": "How the variable should be rendered in LaTeX",
+		"unicode": "Unicode value for the variable; including octal (oct), decimal (dec), hexidecimal (hex), and html (html)",
+		"description": "What does the variable stand for",
+		"units": "The units of the variable",
+		"definition": "Where in the book(s) is this defined",
+		"standard_values": "If there are common values associated with this variable they should be listed"
+	},
+	"mu": {
+		"latex": "\mu",
+		"unincode": {
+			"oct": 01674,
+			"dec": 956,
+			"hex": "0x3BC",
+			"html": "&mu;"
+		},
+		"description": "standard gravitational parameter",
+		"units": "m^3/s^2",
+		"definition": "some page in the book",
+		"standard_values": {
+			"sun": "1.32712440018e20 m^3/s^2",
+			"mercury": "2.2032e13 m^3/s^2",
+			"venus": "3.24859e14 m^3/s^2",
+			"earth": "3.986004418e14 m^3/s^2",
+			"moon": "4.9048695e12 m^3/s^2",
+			"mars": "4.282837e13 m^3/s^2",
+			"jupiter": "1.26686534e17 m^3/s^2",
+			"saturn": "3.7931187e16 m^3/s^2",
+			"uranus": "5.793939e15 m^3/s^2",
+			"neptune": "6.836529e15 m^3/s^2",
+			"pluto": "8.71e11 m^3/s^2",
+			"ceres": "6.26325e10 m^3/s^2",
+			"eris": "1.108e12 m^3/s^2"
+		},
+	},
+}
